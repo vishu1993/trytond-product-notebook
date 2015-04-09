@@ -1,0 +1,5 @@
+[run]
+source = trytond.modules.product_notebook
+
+[report]
+omit = */tests/*, */setup.py
