@@ -103,7 +103,7 @@ requires.append(
 setup(
     name='%s_%s' % (PREFIX, MODULE),
     version=info.get('version', '0.0.1'),
-    description="",
+    description="Tryton module to add a notebook to product.product",
     author="Openlabs Technologies and Consulting (P) Ltd.",
     author_email='info@openlabs.co.in',
     url='http://www.openlabs.co.in/',
@@ -129,7 +129,7 @@ setup(
         'Framework :: Tryton',
         'Topic :: Office/Business',
     ],
-    long_description=open('README.md').read(),
+    long_description=open('README.rst').read(),
     license='GPL-3',
     install_requires=requires,
     zip_safe=False,
