@@ -2,6 +2,6 @@
 <data>
     <xpath expr="//field[@name='code']" position="after">
         <newline/>
-        <notebook colspan="4"></notebook>
+        <notebook colspan="6"></notebook>
     </xpath>
 </data>
