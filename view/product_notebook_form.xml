@@ -2,6 +2,9 @@
 <data>
     <xpath expr="//field[@name='active']" position="after">
         <newline/>
-        <notebook colspan="6"></notebook>
+        <notebook colspan="6">
+            <page id="bom_measurenments" string="BOM/Measurenments">
+            </page>
+        </notebook>
     </xpath>
 </data>
